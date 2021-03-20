@@ -1,0 +1,328 @@
+body
+{
+    font-family: 'Roboto Slab',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+    
+    line-height: 1.5;
+}
+
+a
+{
+    color: white  !important;
+    background-color: transparent;
+    font-size: 1.1rem;
+
+}
+.vv
+{
+    color:#fed136 !important;
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';  
+}
+.back
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMG/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.bttn
+{
+    background-color: #ffc107;
+    color: white;
+    font-weight: bold;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom:1rem ;
+    border-color: #ffc107;
+    display: inline-block;
+    text-align: center;
+    box-shadow:#ffc107;
+    margin-top: 4rem !important;
+    border-radius: .25rem;
+    
+}
+.container
+{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.moh
+{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic !important;
+}
+.mo
+{
+font-size: 5rem;
+font-weight: 700;
+text-align: center;
+margin-top: 10px;
+}
+.btn-x1
+{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;    
+}
+.info-title h4
+{
+color:#002147;
+font-size: 1.5rem;
+}
+.info-title span
+{
+    color: #ffb606;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+.sub-advisor
+{
+    position: relative;
+    font-family: cursive;
+}
+.info-title
+{
+    background-color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    transition: all 800ms ease 0.35s;
+}
+.sub-advisor .overlay
+{
+background-color: rgba(0, 33, 71, 0.7);
+position: absolute;
+top: -100%;
+bottom: 100%;
+left: 15px;
+right: 15px;
+transition: all 70ms ease  0.3s;
+}
+.sub-advisor:hover .overlay
+{
+    top: 0%;
+    bottom: 0%;
+}
+.sub-advisor:hover .info-title
+{
+    bottom: -100px;
+}
+.category
+{
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+}
+.category-info
+{
+    font-size: 30px;
+    color: #002147;
+    font-weight: 700;
+}
+.category-text
+{
+    color: #666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+}
+.card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: .25rem;
+}
+.card-1 .car-overlay
+{
+    transition: all 1s;
+    background-color: #337ab7;
+}
+.card-2 .car-overlay
+{
+    transition: all 1s;
+    background-color: #1ec1d9;
+}
+.card-3 .car-overlay
+{
+    transition: all 1s;
+    background-color: #10c45c;
+
+}
+.card-4 .car-overlay
+{
+    transition: all 1s;
+    background-color:#47c58e;
+}
+.card-5 .car-overlay
+{
+    transition: all 1s;
+    background-color:#f9bd44;
+}
+.card-6 .car-overlay
+{
+    transition: all 1s;
+    background-color:#e948ae;
+}
+.card-7 .car-overlay
+{
+    transition: all 1s;
+    background-color:#e84b3a;
+}
+.card-8 .car-overlay
+{
+    transition: all 1s;
+    background-color:#92278f;
+}
+
+
+
+.card-widht
+{
+    width: 100%;
+    height: 100%;
+}
+.info
+{
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    padding: 20px 20px;
+}
+.card-1
+{
+    background-image: url(../IMG/catagry/1.jpg);
+}
+.card-2
+{
+    background-image: url(../IMG/catagry/2.jpg);
+}
+.card-3
+{
+    background-image: url(../IMG/catagry/3.jpg);
+}
+.card-4
+{
+    background-image: url(../IMG/catagry/4.jpg);
+
+}
+.card-5
+{
+    background-image: url(../IMG/catagry/5.jpg);
+
+}
+.card-6
+{
+    background-image: url(../IMG/catagry/6.jpg);
+
+}
+.card-7
+{
+    background-image: url(../IMG/catagry/7.jpg);
+
+}
+.card-8
+{
+    background-image: url(../IMG/catagry/8.jpg);
+
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8
+{
+    height: 188px;
+    background-size: cover;
+    border: none;
+    transition: all 1s;
+}
+.card:hover .car-overlay
+{
+    background-color: transparent;
+}
+.portfolio
+{
+    background-color: wheat;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+
+.portfolio-link
+{
+    position: relative;
+    display: block;
+}
+a
+{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.portofolio-hover
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.img
+{
+    object-fit: cover;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.img-fluid
+{
+    width: 100%;
+    height: auto;
+}
+.portfolio-caption
+{
+    background-color: white;
+}
+.portfolio-caption h4
+{
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+.portfolio-caption p
+{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.Contact-Us
+{
+    background-image: url(../IMG/map-image.png);
+    background-color: #212529;
+    background-size: cover;
+    color: white;
+}
+.Contact-Us h2
+{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.form-control
+{
+    font-weight: 400;
+    width: 100%;
+    
+    display: block;
+    font-size: 1rem;
+    color: #495057;
+    border-radius: .30rem;
+    
+}
